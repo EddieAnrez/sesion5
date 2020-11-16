@@ -1,10 +1,10 @@
  .maqueta {
      display: inline-grid;
      width: 100%;
-     grid-template-rows: 450px 350px 250px 300px 400px 150px 400px 300px 300px 300px 100px 50px;
+     grid-template-rows: 35em 20em 38em 18em 10em 10em 10em 18em 18em 10em 20em 5em;
      grid-template-columns: 20% 20% 5% 5% 20% 20%;
      grid-template-areas: "title title title video video video" "feat feat feat feat feat feat" "tools tools tools tools  tools tools" "cli grow grow grow grow grow" "tab tab tab tab tab tab" "pow pow pow pow pow pow" "mat mat mat mat mat mat" "pan1 pan1 pan1 pan2 pan2 pan2" "pan3 pan3 pan3 pan4 pan4 pan4" "start start start start start start""foot foot foot foot foot foot" "end end end end end end";
-     gap: 1%;
+     gap: 1em;
      justify-content: center;
  }
  
@@ -25,7 +25,6 @@
  
  .maqueta>footer {
      grid-area: foot;
-     background-color: #8cffa0;
  }
  
  .maqueta>#features {
@@ -36,62 +35,57 @@
  
  .maqueta>#tools {
      grid-area: tools;
-     background-color: #8cffa0;
+     text-align: center;
  }
  
  .maqueta>aside {
      grid-area: cli;
-     background-color: #8cffa0;
  }
  
  .maqueta>#grow {
      grid-area: grow;
-     background-color: #8cffa0;
+     text-align: left;
  }
  
  .maqueta>#tab {
      grid-area: tab;
-     background-color: #8cffa0;
+     text-align: center;
  }
  
  .maqueta>#pow {
      grid-area: pow;
-     background-color: #8cffa0;
+     text-align: center;
  }
  
  .maqueta>#mat {
      grid-area: mat;
-     background-color: #8cffa0;
  }
  
  .maqueta>#pan1 {
      grid-area: pan1;
-     background-color: #8cffa0;
  }
  
  .maqueta>#pan2 {
      grid-area: pan2;
-     background-color: #8cffa0;
  }
  
  .maqueta>#pan3 {
      grid-area: pan3;
-     background-color: #8cffa0;
  }
  
  .maqueta>#pan4 {
      grid-area: pan4;
-     background-color: #8cffa0;
  }
  
  .maqueta>#start {
      grid-area: start;
-     background-color: #8cffa0;
  }
  
  .maqueta>#end {
      grid-area: end;
-     background-color: black;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
  }
  /*Elementos header */
  
@@ -156,7 +150,11 @@
  
  h2 {
      color: #025157;
+     margin: 2%;
+     font-size: xxx-large;
  }
+ 
+ h3 {}
  
  .principal {
      text-align: left;
@@ -189,4 +187,39 @@
  
  #linef>img {
      width: auto;
+ }
+ 
+ #itools {
+     display: flex;
+     width: 100%;
+ }
+ 
+ .ctools {
+     flex-direction: column;
+     margin: 1%;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .ctools>img {
+     width: 25em;
+     box-shadow: 0.75em 0.75em 0.25em #ccc;
+ }
+ 
+ .imagen {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .hundri {
+     height: 4em;
+ }
+ 
+ .lefti {
+     justify-content: left;
+     align-items: center;
+ }
+ 
+ #parraf {
+     font-weight: normal;
  }
