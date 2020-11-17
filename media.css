@@ -1,0 +1,94 @@
+/** dispositivos móviles en vista viewport (vertical) */
+
+@media (max-width: 575px) {
+    .brmed {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    .imgsmall {
+        width: 75%;
+        margin: 3rem;
+        justify-content: center;
+    }
+    .maqueta {
+        display: flex;
+        flex-direction: column;
+    }
+    #itools {
+        flex-direction: column;
+    }
+    .ctools>img {
+        margin-top: 5%;
+        width: 80%;
+    }
+    #end {
+        flex-direction: column;
+    }
+    #end>div {
+        margin: 2%;
+    }
+}
+
+
+/** dispositivos medianos (tablets) */
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .imgsmall {
+        display: none;
+    }
+    header {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pic {
+        width: 80%;
+    }
+    nav {
+        width: 80%;
+    }
+    ul {
+        flex-direction: column;
+    }
+    .actions {
+        width: 80%;
+        text-align: center;
+    }
+    .maqueta {
+        display: flex;
+        flex-direction: column;
+    }
+    #itools {
+        flex-direction: column;
+    }
+    .ctools>img {
+        margin-top: 5%;
+        width: 80%;
+    }
+    #end {
+        flex-direction: column;
+    }
+    #end>div {
+        margin: 2%;
+    }
+    #linef>img {
+        margin: 2%;
+    }
+    .brmed {
+        color: lightgrey;
+    }
+}
+
+
+/** dispositivos grandes (desktops) */
+
+@media (min-width: 992px) {
+    .imgsmall {
+        display: none;
+    }
+    .brmed {
+        display: none;
+    }
+}

@@ -13,6 +13,10 @@
      align-items: center;
      display: flex;
  }
+ 
+ body {
+     padding: 2%;
+ }
  /*Grid Areas*/
  
  .maqueta>#title {
@@ -30,7 +34,7 @@
  .maqueta>#features {
      grid-area: feat;
      text-align: center;
-     margin: 3em 1.5em 3em 1.5em;
+     margin: 1.5em;
  }
  
  .maqueta>#tools {
@@ -202,8 +206,9 @@
  }
  
  .ctools>img {
-     width: 25em;
+     width: 100%;
      box-shadow: 0.75em 0.75em 0.25em #ccc;
+     background-color: pink;
  }
  
  .imagen {
